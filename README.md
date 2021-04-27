@@ -15,20 +15,22 @@ Setup the newly attached SSD (assuming it's on /dev/sda): \
 `fdisk /dev/sda`
 
 Format the disk: \
-sudo mkfs.ext4 /dev/sda
+`sudo mkfs.ext4 /dev/sda`
 
 Mount the disk: \
-mount /dev/sda /mnt/ssd/
+`mount /dev/sda /mnt/ssd/`
 
 ## Customization of nebulouslabs/sia Dockerfile
 Clone this repo \
-git clone https://github.com/nickkanavati/nebulouslabs_sia_custom_raspberry_pi4.git
+`git clone https://github.com/nickkanavati/nebulouslabs_sia_custom_raspberry_pi4.git`
 
 To see the customizations to the Dockerfile search for lines with the word "custom." The explanations should all be in the Dockerfile
 
-## Building the Custom Dockerfile
-- IMPORTANT: Don't use docker-sia/Dockerfile. Use docker-sia/dev/Dockerfile
-cd docker-sia/dev
+## Building and Running the Custom Docker Container
+I made two scripts to bulid and run the container. \
 
-docker build -f docker-sia/dev/Dockerfile . -t sia:1.4.7-dev-custom
+To build the container use: \
+`build_custom_sia_dockerfile.sh`
 
+To run the container use the following sh file and read the comments to customize your storage location:
+`run_custum_sia.sh`
