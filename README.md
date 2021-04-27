@@ -9,10 +9,10 @@ I used an SSD adapter to connect a Solid State Drive to a USB port on the Raspbe
 * SAMSUNG 870 QVO SATA III 2.5" SSD 2TB (MZ-77Q2T0B)
 
 List the available drives: \
-fdisk -l
+`fdisk -l`
 
 Setup the newly attached SSD (assuming it's on /dev/sda): \
-fdisk /dev/sda
+`fdisk /dev/sda`
 
 Format the disk: \
 sudo mkfs.ext4 /dev/sda
