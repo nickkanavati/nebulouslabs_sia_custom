@@ -11,11 +11,16 @@ I used an SSD adapter to connect a Solid State Drive to a USB port on the Raspbe
 List the available drives: \
 fdisk -l
 
-Setup the newly attached SSD (assuming it's on /dev/sda) \
+Setup the newly attached SSD (assuming it's on /dev/sda): \
 fdisk /dev/sda
 
-Format the disk \
+Format the disk: \
 sudo mkfs.ext4 /dev/sda
 
-Mount the disk \
+Mount the disk: \
 mount /dev/sda /mnt/ssd/
+
+## Customizing nebulouslabs/sia Github Code
+
+
+
