@@ -21,8 +21,10 @@ Mount the disk: \
 mount /dev/sda /mnt/ssd/
 
 ## Customization of nebulouslabs/sia Dockerfile
-Clone this repo
+Clone this repo \
+git clone https://github.com/nickkanavati/nebulouslabs_sia_custom_raspberry_pi4.git
 
 To see the customizations to the Dockerfile search for lines with the word "custom." The explanations should all be in the Dockerfile
 
+## Building the Custom Dockerfile
 
