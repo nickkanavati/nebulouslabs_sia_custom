@@ -20,7 +20,9 @@ sudo mkfs.ext4 /dev/sda
 Mount the disk: \
 mount /dev/sda /mnt/ssd/
 
-## Customizing nebulouslabs/sia Github Code
+## Customization of nebulouslabs/sia Dockerfile
+Clone this repo
 
+To see the customizations to the Dockerfile search for lines with the word "custom." The explanations should all be in the Dockerfile
 
 
