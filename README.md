@@ -8,14 +8,14 @@ I used an SSD adapter to connect a Solid State Drive to a USB port on the Raspbe
 * Sabrent USB 3.0 to SSD / 2.5-Inch SATA I/II/III Hard Drive Adapter (EC-SSHD)
 * SAMSUNG 870 QVO SATA III 2.5" SSD 2TB (MZ-77Q2T0B)
 
-List the available drives:
+List the available drives: \
 fdisk -l
 
-Setup the newly attached SSD (assuming it's on /dev/sda)
+Setup the newly attached SSD (assuming it's on /dev/sda) \
 fdisk /dev/sda
 
-Format the disk
+Format the disk \
 sudo mkfs.ext4 /dev/sda
 
-Mount the disk
+Mount the disk \
 mount /dev/sda /mnt/ssd/
