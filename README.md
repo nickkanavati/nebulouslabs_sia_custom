@@ -32,5 +32,5 @@ I made two scripts to bulid and run the container. \
 To build the container use: \
 `build_custom_sia_dockerfile.sh`
 
-To run the container use the following sh file and read the comments to customize your storage location:
+To run the container use the following sh file and read the comments to customize your storage location: \
 `run_custum_sia.sh`
