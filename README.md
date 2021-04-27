@@ -27,4 +27,8 @@ git clone https://github.com/nickkanavati/nebulouslabs_sia_custom_raspberry_pi4.
 To see the customizations to the Dockerfile search for lines with the word "custom." The explanations should all be in the Dockerfile
 
 ## Building the Custom Dockerfile
+- IMPORTANT: Don't use docker-sia/Dockerfile. Use docker-sia/dev/Dockerfile
+cd docker-sia/dev
+
+docker build -f docker-sia/dev/Dockerfile . -t sia:1.4.7-dev-custom
 
