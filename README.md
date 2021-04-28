@@ -27,7 +27,7 @@ Clone this repo \
 To see the customizations to the Dockerfile search for lines with the word "custom." The explanations should all be in the Dockerfile
 
 ## Building and Running the Custom Docker Container
-I made two scripts to bulid and run the container.\
+I made two scripts to bulid and run the container.
 
 To build the container use: \
 `build_custom_sia_dockerfile.sh`
