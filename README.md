@@ -3,6 +3,8 @@ The original image https://hub.docker.com/r/nebulouslabs/sia didn't run on Raspb
 
 Besides getting it to work on Raspberry Pi 4 I added settings to get the Sia data stored on an SSD connected to a USB port.
 
+Just to note, this is mainly for experimentation. A production server should probably be configured using RAID instead of a single SSD.
+
 ## Mounting and Formatting a SSD on Raspberry Pi 4
 I used an SSD adapter to connect a Solid State Drive to a USB port on the Raspberry Pi 4.
 * Sabrent USB 3.0 to SSD / 2.5-Inch SATA I/II/III Hard Drive Adapter (EC-SSHD)
